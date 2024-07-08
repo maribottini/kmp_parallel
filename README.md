@@ -50,7 +50,7 @@ load_sequences(filename): Loads sequences for searching them from a FASTA file.
 main(): Main function to execute the KMP search in parallel and saving all the results.
 
 ## EXAMPLE
-example for running this code (change those files with your files):
+example for running this code (in the folder containing this project i inserted this 2 files to show a functional example of the program):
 ```bash
 python kmp_parallel.py genome.fasta sequences.fasta output.csv
 ```
