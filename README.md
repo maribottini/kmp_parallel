@@ -1,5 +1,5 @@
 # KMP Parallel Search
-##DESCRIPTION
+## DESCRIPTION
 
 In string computation, the exact pattern matching problem is the problem of
 finding all the occurrences of a pattern (string) P, in a text (string) S, where usually P is much
@@ -40,7 +40,7 @@ where:
 <sequences_file> is the path to the sequences FASTA file;
 <output_file> is the path of the output file with all the results.
 
-##FUNCTIONS DESCRIPTION:
+## FUNCTIONS DESCRIPTION:
 create_random_sequences(filename, num_sequences, min_len, max_len): Generates a FASTA file with randomic sequences.
 create_kmp_table(pattern): Creates the KPM table for the given pattern.
 kmp_search(args): Performs the KMP search for the pattern.
@@ -49,20 +49,20 @@ load_genome(filename): Loads the genome sequence from a FASTA file.
 load_sequences(filename): Loads sequences for searching them from a FASTA file.
 main(): Main function to execute the KMP search in parallel and saving all the results.
 
-##EXAMPLE
+## EXAMPLE
 example for running this code (change those files with your files):
 ```bash
 python kmp_parallel.py genome.fasta sequences.fasta output.csv
 ```
 
-##TESTING:
+## TESTING:
 With the use of 'unittest' is possible to test the creation and table KPM.
 Use this comand to run the testing:
 ```bash
 python -m unittest test_kmp.py
 ```
 
-##GitHub REPOSITORY:
+## GitHub REPOSITORY:
 To clone the repository use this comand:
 ```bash
 git clone https://github.com/maribottini/kmp_parallel_search.git
@@ -70,7 +70,7 @@ cd kmp_parallel_search
 
 ```
 
-##VERSION:
+## VERSION:
 Code created and tested on:
 Python 3.10.12
 
